@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+data/audio/*.wav
+outputs/model/*.joblib

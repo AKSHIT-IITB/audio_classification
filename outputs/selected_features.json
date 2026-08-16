@@ -1,0 +1,18 @@
+{
+  "selected_features": [
+    "mfcc1_mean",
+    "mfcc1_std",
+    "mfcc4_mean",
+    "dmfcc1_std",
+    "dmfcc2_std",
+    "dmfcc4_std",
+    "centroid_std",
+    "bandwidth_mean",
+    "bandwidth_std",
+    "rolloff_mean",
+    "rolloff_std",
+    "rms_mean"
+  ],
+  "best_fitness": 0.8297140202179852,
+  "n_total_features": 75
+}

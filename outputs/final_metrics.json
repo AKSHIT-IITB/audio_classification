@@ -1,0 +1,68 @@
+{
+  "n_total_clips": 120,
+  "n_train": 60,
+  "n_test": 60,
+  "n_raw_features": 75,
+  "n_ga_selected_features": 12,
+  "ga_selected_features": [
+    "mfcc1_mean",
+    "mfcc1_std",
+    "mfcc4_mean",
+    "dmfcc1_std",
+    "dmfcc2_std",
+    "dmfcc4_std",
+    "centroid_std",
+    "bandwidth_mean",
+    "bandwidth_std",
+    "rolloff_mean",
+    "rolloff_std",
+    "rms_mean"
+  ],
+  "k_clusters": 4,
+  "train_silhouette": 0.8537140202179853,
+  "train_davies_bouldin": 0.2099777199467786,
+  "train_calinski_harabasz": 1041.1154224595243,
+  "train_ari_vs_true_genre": 1.0,
+  "train_nmi_vs_true_genre": 1.0,
+  "test_ari_vs_true_genre": 1.0,
+  "test_nmi_vs_true_genre": 1.0,
+  "test_nearest_centroid_accuracy": 1.0,
+  "cluster_to_genre_mapping": {
+    "0": "electronic",
+    "1": "jazz",
+    "2": "classical",
+    "3": "rock"
+  },
+  "confusion_matrix_labels": [
+    "classical",
+    "electronic",
+    "jazz",
+    "rock"
+  ],
+  "confusion_matrix_test": [
+    [
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      15
+    ]
+  ]
+}
